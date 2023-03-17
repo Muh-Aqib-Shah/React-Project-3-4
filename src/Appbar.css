@@ -1,0 +1,124 @@
+.body{
+    width:1263px;
+    height: 675px;
+    background-image: url("./images/spy_family.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
+}
+.loid{
+    width:1263px;
+    height: 675px;
+    background-image: url("./images/loid_forger.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
+}
+
+.anya{
+    width:1263px;
+    height: 675px;
+    background-image: url("./images/anya_forger.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
+}
+
+.yor{
+    width:1263px;
+    height: 675px;
+    background-image: url("./images/yor_forger.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
+}
+
+.container{
+    width:800px;
+    margin-top: 20px;
+    height:70px;
+    display:grid;
+    grid-template-columns: 0.8fr 2.1fr;
+    grid-gap: 200px;
+}
+.container-loid{
+    width:800px;
+    margin-top: 20px;
+    margin-left: 120px;
+    height:70px;
+    background-color: darkgoldenrod;
+    display:grid;
+    grid-template-columns: 0.8fr 2.1fr;
+    grid-gap: 200px;
+}
+
+.container-anya{
+    width:800px;
+    margin-top: 20px;
+    margin-left: 120px;
+    height:70px;
+    background-color: pink;
+    display:grid;
+    grid-template-columns: 0.8fr 2.1fr;
+    grid-gap: 200px;
+}
+.container-yor{
+    width:800px;
+    margin-top: 20px;
+    margin-left: 120px;
+    height:70px;
+    background-color: red;
+    display:grid;
+    grid-template-columns: 0.8fr 2.1fr;
+    grid-gap: 200px;
+}
+
+.child{
+    height:70px;
+    background-image: url("./images/sflogo.jpg");
+    background-size: 160%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    border-radius: 40px 40px 40px 40px;
+}
+.child2{
+    background-color: black;
+    display:grid;
+    grid-template-columns: 0.4fr 0.4fr 0.4fr;
+    grid-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px 50px 50px 50px;
+}
+.char1{
+    
+    background-color: darkgoldenrod;
+    color: yellow;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 23%;
+    
+}
+.char2{
+    background-color: pink;
+    color: fuchsia;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+.char3{
+    background-color: red;
+    color: darkred;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 23%;
+}
+

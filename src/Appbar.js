@@ -22,23 +22,23 @@ export const Appbar = () =>{
         setcharacter(0)
     }
     function determine_state(variable){
-        if(variable=="loid")
+        if(variable==="loid")
          return "loid"
-        else if(variable=="anya")
+        else if(variable==="anya")
          return "anya"
-        else if(variable=="yor")
+        else if(variable==="yor")
          return "yor"
-        else if(variable==0)
+        else if(variable===0)
          return "body"
     }
     function determine_container(variable){
-        if(variable=="loid")
+        if(variable==="loid")
          return "container-loid"
-        else if(variable=="anya")
+        else if(variable==="anya")
          return "container-anya"
-        else if(variable=="yor")
+        else if(variable==="yor")
          return "container-yor"
-        else if(variable==0)
+        else if(variable===0)
          return "container"
     }
 
